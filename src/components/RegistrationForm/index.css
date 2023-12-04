@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.small-container {
+  width: 50%;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  width: 80%;
+  box-shadow: 5px 5px 10px #bfbfbf;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-text {
+  width: 80%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #9aa5b1;
+  border-radius: 8px;
+}
+.form-div {
+  width: 80%;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.button {
+  background-color: #ea580c;
+  color: white;
+  outline: none;
+  border: 0px none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 8px;
+}
